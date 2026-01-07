@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-work-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  background-color: #F15B22;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 25px;
+  cursor: pointer;
+
+}
+#head-section .header-img img{
+  width: 100%;
+  max-width: 1600px;
+  max-height: 808px;
+  position: relative;
+}
+
+#head-section .header-text{
+  max-width: 525px;
+  max-height: 426px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  text-align: right;
+}
+#head-section .header-text h2{
+  font-size: 65px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 24px;
+}
+#head-section .header-text p{
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+/* This is main section */
+#main-section{
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+}
+#main-section .main-section-img img{
+  max-width: 570px;
+  max-height: 724px;
+}
+#main-section .main-section-text{
+  max-width: 416px;
+  max-height: 400;
+}
+#main-section .main-section-text h4{
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 24px;
+}
+#main-section .main-section-text p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+#main-section .main-section-text ul li{
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  list-style-type: none;
+}
+.main-section-text ul li::before{
+  content: "✔";
+  color: #16D887;
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+/* This is my plan section */
+#my-plan{
+  width: 71%;
+  max-width: 1140px;
+  max-height: 300px;
+  /* border: 1px solid black; */
+  margin:0 auto;
+  margin-top: 130px;
+}
+#my-plan .plan-heading h4{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 55px;
+} 
+#my-plan .plan-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.plan1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 214px;
+  max-height: 197px;
+}
+/* .plan1 img{
+  max-width: 93px;
+  max-height: 93px;
+} */
+.plan1 h4{
+  font-size: 23px;
+  font-weight: bold;
+  color: #151414;
+}
+.plan1 p{
+  font-size: 18px;
+  color: #444343;
+}
