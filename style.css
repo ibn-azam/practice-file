@@ -129,3 +129,49 @@
   font-size: 18px;
   color: #444343;
 }
+
+/* This is banner section */
+#banner{
+  width: 71%;
+  max-width: 1140px;
+  margin: 130px auto 0;
+}
+
+#banner{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.section-banner{
+  border-radius: 10px;
+}
+#banner .section-gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 5px;
+}
+.section-banner-text{
+  max-width: 460px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 2;
+}
+.section-banner-text h4{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 24px;
+}
+.btn2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #F15B22;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 25px;
+  cursor: pointer;
+}
